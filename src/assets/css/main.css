@@ -1,0 +1,623 @@
+.intro_section {
+  background: url(../images/bg-pattern-intro-desktop.svg) no-repeat center 70px,
+    linear-gradient(
+      93deg,
+      rgba(255, 136, 111, 1) 18%,
+      rgba(255, 113, 103, 1) 32%,
+      rgb(255, 73, 91) 49%
+    );
+
+  background-size: 2900px !important;
+  background-position: calc(50% + 398px) calc(50% - 60px) !important;
+  height: 600px;
+  right: -645px;
+  top: -980px !important;
+  width: 100% !important;
+  border-bottom-left-radius: 100px;
+}
+.header_content {
+  display: flex !important;
+  flex-direction: row;
+  text-align: center !important;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 50px;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.header_links nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header_links nav ul li {
+  list-style: none;
+  align-items: center !important;
+}
+.header_links nav ul li img {
+  margin-left: 5px;
+}
+.d_content {
+  display: none !important;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  min-width: 110px;
+  z-index: 1;
+  text-align: start;
+  padding: 15px;
+}
+
+.d_content li a {
+  color: #4d4d4d;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.d_content li {
+  display: block;
+  padding: 4px;
+}
+
+.dropdown:hover .d_content {
+  display: block !important;
+}
+.dropdown:hover img {
+  transform: rotate(180deg) !important;
+  transition: transform 0.3s ease !important;
+}
+.d_content a:hover {
+  color: #030303;
+  text-decoration: none;
+  font-family: "Heebo";
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 17.5px;
+  color: #ffd6d2;
+  margin-left: 20px;
+  font-family: "Heebo";
+  font-weight: bold;
+}
+.mp_signUp_btn {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.mp {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn_outline {
+  border: 1px solid white !important;
+  background: none !important;
+  color: white !important;
+}
+.btn_outline:hover {
+  border: 1px solid white !important;
+  background: white !important;
+  color: #ffbeb8 !important;
+}
+.btn {
+  height: 50px;
+  background-color: white;
+  color: #e25b62;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-family: "Heebo";
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 30px;
+}
+.btn_h:hover {
+  background: #ff7c84;
+  color: #ffd6d2;
+}
+.logo_with_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo_with_links img {
+  margin-right: 40px;
+}
+
+.intro_container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 90px;
+}
+._intro_title h1 {
+  font-family: "Heebo";
+  font-size: 55px;
+  color: white;
+  font-weight: 500;
+}
+.intro_description {
+  font-family: "Heebo";
+  font-size: 18.6px;
+  color: white;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #fde6e6;
+}
+
+/* about style */
+
+.about_header h1 {
+  font-family: "Heebo";
+  font-size: 39px;
+  font-weight: 600;
+  text-align: center !important;
+  color: #223d51;
+}
+
+.about_container {
+  margin-top: 150px;
+}
+
+.about_contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+.pattern_circle_wrapper {
+  background: url(../images/illustration-editor-desktop.svg) no-repeat;
+  background-size: 1040px !important;
+  background-position: calc(50% + 210px) calc(50% - 40px) !important;
+  height: 100vh;
+  width: 100% !important;
+  margin-top: -140px;
+  padding: 150px;
+}
+.amb {
+  margin-bottom: 80px !important;
+}
+.about_description_title h2 {
+  font-family: "Heebo";
+  color: #34495a;
+  font-size: 29px;
+  font-weight: 600;
+}
+.about_description {
+  padding-left: 150px;
+}
+.about_descriptions {
+  /* margin-top: 130px; */
+  margin-top: -180px;
+}
+.about_description_text p {
+  color: #7c8084;
+  font-family: "Heebo";
+  letter-spacing: 0.8px;
+  line-height: 28.8px;
+
+  font-weight: 300px;
+  font-size: 17px;
+  margin-top: 39px;
+  width: 604px;
+}
+
+/* app style */
+
+.app_container {
+  /* margin-top: 10px; */
+  /* padding: 10px; */
+  height: 400px;
+  width: 100%;
+  background: url(../images/bg-pattern-circles.svg) no-repeat left,
+    linear-gradient(
+      261deg,
+      rgba(47, 48, 68, 1) 8%,
+      rgba(56, 59, 87, 1) 49%,
+      rgba(48, 49, 69, 1) 100%
+    );
+  background-position: calc(50% + -470px) calc(50% - 270px) !important;
+  background-size: 1150px !important;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.app_image img {
+  margin-top: -68px;
+  /* margin-right: -90px; */
+}
+.app_contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.app_info {
+  text-align: start;
+  margin-top: -105px;
+  margin-left: 40px;
+  padding: 30px;
+}
+.app_title h1 {
+  font-family: "Heebo";
+  font-size: 40px;
+  font-weight: 400;
+  color: #fcfefe;
+  margin-bottom: 20px;
+}
+
+.app_description p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(212, 212, 212);
+  font-family: "Heebo";
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  width: 560px;
+  line-height: 29px;
+}
+
+/* laptop  */
+
+.laptop_contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  margin-top: 180px;
+}
+.pattern_circle_wrapper_laptop {
+  background: url(../images/illustration-laptop-desktop.svg) no-repeat;
+  background-size: 1040px !important;
+  background-position: calc(50% + -190px) calc(50% - 10px) !important;
+  height: 100vh;
+  width: 100% !important;
+  margin-top: -140px;
+  padding: 150px;
+}
+
+.laptop_description {
+  padding-right: 150px;
+}
+.laptop_descriptions {
+  margin-top: -150px;
+}
+
+.laptop_description_text p {
+  color: #7c8084;
+  font-family: "Heebo";
+  letter-spacing: 0.8px;
+  line-height: 28.8px;
+  font-weight: 300px;
+  font-size: 17px;
+  margin-top: 27px;
+  width: 604px;
+}
+.laptop_description_title h2 {
+  font-family: "Heebo";
+  color: #34495a;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #24242c;
+  height: 300px;
+  border-top-right-radius: 100px;
+  padding-top: 80px;
+  padding-right: 90px;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer_links ul li {
+  list-style: none;
+  font-family: "Heebo";
+  padding: 7px;
+}
+
+.footer_links ul li p {
+  color: #ffffff;
+  font-family: "Heebo";
+  font-size: 18.9px;
+  margin-bottom: 17px;
+}
+
+.footer_links ul li a {
+  color: #bababa;
+  font-family: "Heebo";
+  text-decoration: none;
+}
+
+/* @media (max-width: 768px)  */
+
+@media (max-width: 768px) {
+  /* footer media Q */
+  footer {
+    height: 100%;
+    padding-right: 0px;
+    margin-top: 60px;
+  }
+  .footer_links {
+    flex-direction: column;
+    align-content: center !important;
+    text-align: center;
+    align-items: center;
+  }
+  .footer_links ul li p {
+    margin-bottom: 6px;
+    margin-top: 20px;
+  }
+  .footer_links ul li {
+    padding: 5px;
+  }
+
+  /* laptop media Q */
+
+  .laptop_contents {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .pattern_circle_wrapper_laptop {
+    background: url(../images/illustration-laptop-mobile.svg) no-repeat;
+    background-size: 90% !important;
+    background-position: center !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+    padding: 0px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .laptop_description_text p {
+    font-size: 16px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center !important;
+  }
+  .laptop_description_title h2 {
+    font-size: 25px;
+    text-align: center !important;
+  }
+  .laptop_description {
+    padding-right: 0px;
+  }
+  .laptop_descriptions {
+    margin: 0 auto;
+  }
+
+  .app_container {
+    background: url(../images/bg-pattern-circles.svg) no-repeat left,
+      linear-gradient(
+        261deg,
+        rgba(47, 48, 68, 1) 8%,
+        rgba(56, 59, 87, 1) 49%,
+        rgba(48, 49, 69, 1) 100%
+      );
+    background-position: calc(50% + 0px) calc(50% - 240px) !important;
+    background-size: 750px !important;
+    height: fit-content;
+  }
+  .app_image img {
+    position: relative;
+    top: -40px;
+  }
+  .app_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+  }
+  .app_image img {
+    margin-top: -228px;
+    width: 100%;
+  }
+
+  .app_title h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .app_description p {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .about_header h1 {
+    text-align: center !important;
+    position: relative;
+    bottom: -410px;
+  }
+
+  .about_container {
+    margin-top: 100px;
+  }
+
+  .about_contents {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .pattern_circle_wrapper {
+    background: url(../images/illustration-editor-mobile.svg) no-repeat;
+    background-size: 50% !important;
+    background-position: center !important;
+    height: 300px;
+    width: 100% !important;
+  }
+  .amb {
+    margin-bottom: 80px !important;
+  }
+  .about_description_title h2 {
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .about_description {
+    padding-left: 0px;
+    text-align: center !important;
+  }
+  .about_descriptions {
+    margin-bottom: 390px;
+    margin-top: 1px;
+  }
+  .about_description_text p {
+    text-align: center !important;
+    width: 90%;
+    margin: 0 auto !important;
+  }
+  .menuHeader {
+    display: block !important;
+  }
+  .introNavs {
+    display: none !important;
+  }
+
+  .intro_section {
+    background: url(../images/bg-pattern-intro-mobile.svg) no-repeat center 70px,
+      linear-gradient(
+        93deg,
+        rgba(255, 136, 111, 1) 18%,
+        rgba(255, 113, 103, 1) 32%,
+        rgb(255, 73, 91) 49%
+      );
+
+    background-size: 1900px !important;
+    background-position: calc(50% + 180px) calc(50% - -41px) !important;
+    height: 90vh;
+    right: -645px;
+    top: -980px !important;
+    width: 100% !important;
+    border-bottom-left-radius: 100px;
+  }
+  .header_content {
+    display: flex !important;
+    flex-direction: row;
+    text-align: center !important;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 50px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  ._intro_title h1 {
+    font-size: 40px;
+    width: 75%;
+    margin: 0 auto !important;
+  }
+  .intro_description {
+    font-family: "Heebo";
+    font-size: 19.8px;
+    color: white;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fde6e6;
+    width: 70%;
+    margin: 0 auto;
+    padding: 16px;
+    padding-bottom: 45px;
+  }
+}
+
+.menu {
+  display: none;
+}
+.menuHeader {
+  display: none;
+}
+
+.menu.open {
+  display: block;
+  position: absolute;
+  top: 90px;
+  padding-top: 20px;
+  right: auto;
+  background-color: #ffffff;
+  width: 90%;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 50px -10px;
+}
+
+.menu ul {
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 20px 0;
+}
+
+/* Menu toggle (burger icon) */
+.menu-toggle {
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+.menu-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center !important;
+  padding: 30px;
+}
+.menuHeader nav ul li {
+  list-style: none !important;
+  text-align: center;
+  padding: 5px;
+}
+
+.menuHeader a {
+  color: black;
+  padding-right: 6px;
+}
+.menuHeader .auth_btns {
+  display: flex;
+  flex-direction: column;
+}
+.menuHeader .auth_btns button {
+  background: linear-gradient(
+    93deg,
+    rgba(255, 136, 111, 1) 18%,
+    rgba(255, 113, 103, 1) 32%,
+    rgb(255, 73, 91) 49%
+  );
+  width: 150px;
+  margin: 0 auto;
+  color: #fcfefe;
+}
+.menuHeader .auth_btns a {
+  padding-bottom: 12px;
+  text-align: center !important;
+  margin: 0 auto;
+}
+.menuHeader .d_content {
+  display: none !important;
+  position: relative;
+  border-radius: 5px;
+  background-color: #efeff1;
+  width: 70%;
+  margin: 0 auto !important;
+  z-index: 1;
+  text-align: start;
+  padding: 8px;
+}
